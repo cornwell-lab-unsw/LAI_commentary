@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath, amsthm, amssymb,graphicx,natbib,booktabs,lineno}
+\usepackage[a4paper]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage[usenames,dvipsnames]{color}
+\modulolinenumbers[5]
+\usepackage[font=footnotesize,labelfont=bf,margin=1cm]{caption} % caption formatting
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{textcomp}
+\usepackage{color} 
+\usepackage{pbox}
+\usepackage{float}
+\usepackage[affil-it]{authblk} 
+\usepackage{etoolbox}
+\usepackage{lmodern}
+\usepackage{rotating}
+\usepackage[scientific-notation=true]{siunitx}
+
+
+%\pdfminorversion=3
+
+\renewcommand\Authfont{\fontsize{11}{12}\selectfont}
+\renewcommand\Affilfont{\fontsize{8}{8}\itshape}
+
+\doublespacing
+
+
+\title{The difficult but important paths toward understanding variation in the amount of leaf area in vegetation}
+
+\author[1]{
+William K. Cornwell
+}
+
+\date{}
+
+\affil[1] {Ecology and Evolution Research Centre, School of Biological, Earth and Environmental Sciences, University of New South Wales, Sydney, NSW 2052, Australia. Email for correspondence: \texttt{wcornwell@gmail.com}\\}
+
+
+\begin{document}
+	
+\maketitle
+
+\newpage	
+	
+	\parindent=1.5em
+	\addtolength{\parskip}{.3em}
+	\vfill
+	
+	\newpage
+	
+	While not exactly mysterious, the amount of leaf area per ground area (leaf area index, LAI) in different vegetation types has been of long interest to ecologists.  Very early on it became clear that this was of interest to understanding the energetics of a stand of vegetation and to light levels and the the regeneration of young plants at the ground level.  However, despite it's clear ecological importance, LAI is not an easy quantity to measure.  \citet{braun1932plant} proposed a simple, semi-quantitative method to get at this.  \cite{dobert2015can} build on this ``classic'' technique and test it against a destructive measure of LAI in the understory of a tropical forest.  Do understand where this fits in the literature it is worth considering exactly why LAI is crucial for vegetation ecology.  
+	
+	In an extremely prescient paper \citet{monsi1953uber} laid out a number of the ideas of what would become modern
+	vegetation ecology, including a high quantitative understanding of leaf area index and its effect on light penetration through the canopy. (Note: this paper was originally published in German in the Japenese Journal of Botany and very thoughtfully translated into English by Marcus Schortemeyer and the translation published in Annals of Botany in 2005.)  Considering the energetics of the system as a whole, one of the key observations of \citet{monsi1953uber} was that the dynamics at the bottom of the understory are inextricably linked to those at the top--in the darkest of the Japenese systems they studied, the bamboo forests, the understory species were becoming light--starved and etiolated. The winners and losers in regeneration is a function at least in part of the amount leaf cover.  This is in some ways a special case of the regeneration niche sense \citet{grubb1977maintenance}, with leaf area and light penetration playing a key role\citep[see also][]{valladares2008shade}.  This separation of regeneration niche along a light/LAI gradient seems to even be true for groups of closely related species \citep[e.g. Hawaiian lobeliads, see][]{givnish2004adaptive}.  Thus, if a full understanding of both community composition and stand dynamics rests in part on an understanding of the dynamics of leaf area index.  
+	
+    LAI at the stand level is, with few exceptions, an emergent feature of multiple species and multiple functional groups.  Some species make much higher LAI canopy compared to co-occurring species  \citep{kassnacht1997interrelationships}.   (And light penetration at a given LAI also varies among species.)  If the tendency to make a dense, high LAI canopy is also associated with the ability to regenerate at very low light conditions, this can represent a mechanism of positive density dependence, which may also be called ``niche construction'' \citep[\emph{sensu}][]{odling2003niche}.  However, especially in diverse systems it is rarely that simple with a large suite of shade--tolerant species all seeking to regenerate in the limited opportunities \citep{valladares2008shade}.  
+	
+	Because the area of leaves affect fluxes of both water and carbon, there is also a key role for LAI in certain implementations of dynamic global vegetation models \citep[DGVMs, e.g.][]{murray2013evaluation}.  The variety of ways that DGVMs use or simulate LAI are beyond the scope of this short discussion piece, but suffice to say that better empirical datasets of LAI will certainly help those models.  It is also a key variable that is used to distinguish among early and late successional forests and among ecosystems for conservation purposes.  
+	
+	Given the utility of LAI for community, ecosystem, and global processes, there has been a great deal of interest in generating better spatial and temporal datasets.  However, there are a variety of approaches \citep{jonckheere2004review, breda2003ground} and a significant hurdle in temporal variability.  Remote sensing products now exist for LAI at the global scale, but the training datasets are largely in North America and so its application to other regions introduces a a large amount of error \citep[e.g. for Australia see][]{hill2006assessment}.  Moreover, the accuracy in tropical regions has also not been well constrained or tested, especially in areas were leaf area responds strongly to recent precipitation (or lack thereof).  Clearly the next generation of remotely sensed LAI products could use more geographically extensive and diverse training data.  
+	
+	The reason why these data do not currently exist is largely due to the fact that LAI varies seasonally, successionally, and it's difficult to measure \citep{jonckheere2004review}.  If the techniques presented by \cite{dobert2015can} are further developed, expanded to include the canopy and different vegetation types, there may be a way forward to more extensive (in space and time) datasets of LAI.  
+	
+	
+	\bibliographystyle{jecol}
+	\bibliography{lai_comment.bib}
+
+\end{document}
